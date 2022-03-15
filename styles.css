@@ -1,0 +1,54 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+       margin: .4rem 0;
+    text-align: center;
+    
+}
+
+
+button{
+    margin: auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  #fecha{
+    display:block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+  }
+  #reiniciar{
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+#textoFecha{
+    color: rgb(35, 87, 30);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#textoClima, #clima2, #clima3{
+    color:rgb(128, 89, 18);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#textoTemp{
+    color:blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: url('sources/weather.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+  }
